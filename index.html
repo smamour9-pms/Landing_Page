@@ -1,0 +1,49 @@
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Exo tailwindcss</title>
+       
+</head>
+
+<body>
+
+    <section class="flex justify-between items-center w-full h-screen">
+        <div class="w-1/2 flex justify-center items-center ">
+            <form class="w-[430px]">
+                <button class="bg-[#00378a] text-white py-6 px-8 rounded-lg text-3xl mb-5">
+                    <p>M</p>
+                </button>
+                <h1 class="font-bold text-2xl">Get started</h1>
+                <p class="text-md">welcome to planet coffee - let's create your account</p>
+                <div class="border-b-2 my-10"></div>
+                <div class="flex flex-col">
+                    <label for="">
+                        Email
+                    </label>
+                    <input type="text" placeholder="mamour@gmail.com" class="border-2 p-3 rounded-md text-sm outline-[#00378a]">
+                </div>
+
+                <div class="flex flex-col mt-4">
+                    <label for="">
+                        Password
+                    </label>
+                    <input type="password" placeholder="password" class="border-2 p-3 rounded-md text-sm outline-[#00378a]">
+                </div>
+
+                <button class="w-full bg-[#00378a] text-white mt-7 rounded-md p-3">
+                    Sign up
+                </button>
+                <p class="text-center mt-3">Already have an account ? <a href="#" class="text-[#00378a] font-bold">Log in</a></p>
+            </form>
+        </div>
+
+        <div class="w-1/2 h-full">
+            <img src="/img/coffee.jpg.png" class="h-full w-full object-cover">
+        </div>
+    </section>
+</body>
+</html>
